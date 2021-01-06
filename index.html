@@ -14,7 +14,7 @@
 <body>
   <header>
     <div class="logo">
-      <img src="img/devthmc.png" alt="">
+      <img src="./img/devthmc.png" alt="">
     </div>
     <button class="nav-toggle" aria-label="toggle navigation">
       <span class="hamburger"></span>
@@ -22,6 +22,7 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">My Services</a></li>
         <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
         <li class="nav__item"><a href="#" class="nav__link">My Works</a></li>
         <li class="nav__item"><a href="#" class="nav__link">Comments</a></li>
@@ -29,6 +30,49 @@
       </ul>
     </nav>
   </header>
+
+  <!-- Introduction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Oğuzhan Tohumcu</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img src="./img/dev-thmc-01.jpg" alt="a normal picture of Oguzhan Tohumcu">
+  </section>
+
+  <!-- My Services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Front-End Development</h3>
+        <p>Stepping into the JavaScript world with React Native. Switching to React side after basic level projects.
+          Developing many small and medium applications with React, an open source web application framework for
+          building user interfaces. Professional experience with the task of adapting a desktop application to the web
+          environment using Vue.js. To maintain personal development and practices in this direction.</p>
+      </div> <!-- / service 1 -->
+
+      <div class="service">
+        <h3>E-Commerce</h3>
+        <p>In the graduation thesis, the design and implementation of the website of a retail company operating in the
+          E-commerce sector, taking into account the CRM Optimization rules, using technologies such as Node.js and
+          MongoDB. In addition, in the personal project, the development of a shopping website of an exemplary clothing
+          company continues. Technologies used in this application are: React, Redux, Redux-Saga, Stripe, Context API,
+          GraphQL, Apollo.</p>
+      </div> <!-- / service 2 -->
+
+      <div class="service">
+        <h3>Windows Systems & Infrastructure</h3>
+        <p>Working on subjects such as Domain-Trust relationship, SCCM, Active Directory, MDM, Azure and Exchange
+          Server, thanks to what has been learned through the Windows Systems Infrastructure internship. Server
+          management with Microsoft Server 2016, configurations of virtual machines installed with VMWare and
+          realization of various virtualization configurations on the CentOS 7 virtual machine on Linux.</p>
+      </div> <!-- / service 3 -->
+
+    </div> <!-- / services -->
+
+    <a href="#work" class="btn">See My Work</a>
+  </section>
 
 </body>
 
