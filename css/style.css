@@ -160,7 +160,7 @@ header {
   right: 0;
   z-index: 100;
 
-  transform: translateX(100%);
+  transform: translateX(0%);
   transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 }
 
@@ -180,10 +180,57 @@ header {
   font-weight: var(--fw-bold);
   font-size: var(--fs-h3);
   text-decoration: none;
+  letter-spacing: .2em;
 }
 
 .nav__link:hover {
   color: var(--clr-accent);
+}
+
+.nav__link:focus {
+  outline: 0;
+}
+
+.nav-toggle {
+  padding: .5em;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  z-index: 1000;
+}
+
+.hamburger {
+  display: block;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  background: var(--clr-dark);
+  width: 2em;
+  height: 3px;
+  border-radius: 1em;
+  transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.hamburger::before {
+  top: 6px;
+}
+
+.hamburger::after {
+  bottom: 6px;
 }
 
 /*  Intro Section  */
@@ -261,7 +308,7 @@ header {
   height: 1px;
   margin: 0.5em auto 1em;
   background: var(--clr-light);
-  opacity: 0.40;
+  opacity: 0.4;
 }
 
 .services {
