@@ -13,7 +13,7 @@ navLinks.forEach(link => {
 
 
 //Get the button
-const mybutton = document.getElementById("myBtn");
+const mybutton = document.getElementById("upArrowBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () { scrollFunction() };

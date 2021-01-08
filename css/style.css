@@ -210,7 +210,8 @@ header {
   transform: translateX(0);
 }
 
-.nav-open .nav-toggle {
+.nav-open .nav-toggle,
+.nav-toggle {
   position: fixed;
 }
 
@@ -494,7 +495,9 @@ header {
   padding: 0.5em;
 }
 
-#myBtn {
+/* Go Up Button */
+
+#upArrowBtn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -511,7 +514,21 @@ header {
   box-shadow: var(--bs);
 }
 
-#myBtn:hover {
+#upArrowBtn:hover {
   background-color: var(--clr-dark);
   color: var(--clr-light);
+}
+
+/* Individual Portfolio Item Styles */
+
+.portfolio-item-individual {
+  padding: 0 2em 2em;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.portfolio-item-individual p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
