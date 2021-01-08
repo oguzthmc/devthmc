@@ -188,6 +188,14 @@ nav {
   }
 }
 
+@media (max-width: 600px) {
+  .intro__img {
+    width: calc(75% - 20px);
+    margin: auto 10vw;
+    margin-left: 0;
+  }
+}
+
 /*  My Services Section  */
 
 .my-services {
@@ -238,11 +246,17 @@ nav {
 
 .about-me {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0.5em auto;
+}
+
+.about-me__body {
+  margin-right: 2em;
 }
 
 .about-me__img {
   box-shadow: var(--bs);
+  margin-top: 1em;
+  left: -0.5em;
 }
 
 @media (min-width: 600px) {
@@ -277,6 +291,13 @@ nav {
   }
 }
 
+@media (max-width: 600px) {
+  .about-me__img {
+    width: calc(65% - 20px);
+    margin: auto 13vw;
+  }
+}
+
 /* My Works Section */
 
 .my-work {
@@ -287,14 +308,16 @@ nav {
 
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin-top: 3em;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin: 1.5em 5em;
+  justify-content: center;
 }
 
 .portfolio__item {
   background: var(--clr-accent);
   overflow: hidden;
-  max-height: 23vh;
+  max-height: 26vh;
+  margin-top: 0.5vmax;
 }
 
 .portfolio__img {
