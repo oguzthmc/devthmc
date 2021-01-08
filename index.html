@@ -27,12 +27,12 @@
     </button>
     <nav class="nav">
       <ul class="nav__list">
-        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">My Services</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">About Me</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">My Works</a></li>
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
         <li class="nav__item"><a href="#" class="nav__link">Comments</a></li>
-        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        <li class="nav__item"><a href="#footer-contact" class="nav__link">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -101,9 +101,9 @@
     <img src="img/dev-thmc-02.jpg" alt="a picture of Oguzhan Tohumcu smiling" class="about-me__img">
   </section>
 
-  <!-- My Works -->
+  <!-- My Work -->
   <section class="my-work" id="work">
-    <h2 class="section__title">My Works</h2>
+    <h2 class="section__title">My Work</h2>
     <p class="section__subtitle">A selection of my range of work</p>
 
     <div class="portfolio">
@@ -155,7 +155,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer" id="footer-contact">
     <a href="mailto:oguzthmc@gmail.com" class="footer__link">oguzthmc@gmail.com</a>
     <ul class="social-list">
       <li class="social-list__item">
@@ -202,6 +202,9 @@
     </ul>
   </footer>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
