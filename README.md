@@ -1,6 +1,6 @@
 # devthmc  
 
-My Reponsive Portfoilo Website with HTML/CSS & JavaScript
+My Reponsive Portfolio Website with HTML/CSS & JavaScript
 
 ## Links  
 
