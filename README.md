@@ -2,4 +2,6 @@
 
 My Reponsive Portfoilo Website with HTML/CSS & JavaScript
 
-## Links
+## Links  
+
+Checkout the [live demo](https://devthmc.netlify.app)
