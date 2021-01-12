@@ -646,6 +646,7 @@ header {
 @media (max-width: 548px) {
   .comment-box {
     width: calc(35% - 10vw);
+    font-size: 12px;
   }
   .user-icon {
     display: block;
